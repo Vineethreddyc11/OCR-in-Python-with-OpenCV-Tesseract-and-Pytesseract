@@ -16,7 +16,9 @@ The sub-processes in the list can differ, but these are roughly steps needed to 
 For almost two decades, optical character recognition systems have been widely used to provide automated text entry into computerized systems. Yet in all this time, conventional online OCR systems (like zonal OCR) have never overcome their inability to read more than a handful of type fonts and page formats. Proportionally spaced type (which includes virtually all typeset copy), laser printer fonts, and even many non-proportional typewriter fonts, have remained beyond the reach of these systems. And as a result, conventional OCR has never achieved more than a marginal impact on the total number of documents needing conversion into digital form.
 
 
-#### Optical Character Recognition process (Courtesy)
+#### Optical Character Recognition process 
+
+![Screen Shot 2022-11-09 at 9 23 01 AM](https://user-images.githubusercontent.com/68578215/200898950-e10a2d59-a0e6-4b97-a99e-e475318b6a2e.png)
 
 
 
@@ -34,6 +36,11 @@ Tesseract is an open source text recognition (OCR) Engine, available under the A
 
 #### OCR Process Flow
 
+
+![Screen Shot 2022-11-09 at 9 24 33 AM](https://user-images.githubusercontent.com/68578215/200898948-a0d4e3fa-01ad-4d6b-bda1-c53b614d25e9.png)
+
+
+![Screen Shot 2022-11-09 at 9 24 47 AM](https://user-images.githubusercontent.com/68578215/200898943-297eaefb-be2e-4c77-9305-a18b873966a1.png)
 
 
 Tesseract 4.00 includes a new neural network subsystem configured as a text line recognizer. It has its origins in OCRopus' Python-based LSTM implementation but has been redesigned for Tesseract in C++. The neural network system in Tesseract pre-dates TensorFlow but is compatible with it, as there is a network description language called Variable Graph Specification Language (VGSL), that is also available for TensorFlow.
