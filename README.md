@@ -13,22 +13,22 @@ Basic functions for different preprocessing methods
 - deskwing
 - template matching. 
 
-Different methods can come in handy with different kinds of images. 
+
 
 ### Bounding box information using Pytesseract
 
-While running and image through the tesseract OCR engine, pytesseract allows you to get bounding box imformation 
+While running and image through the tesseract OCR engine, pytesseract allows to get bounding box imformation 
 - on a character level
 - on a word level
 - based on a regex template
 
-We will see how to obtain all of them.
+
 
 ### Page Segmentation Modes
 
-There are several ways a page of text can be analysed. The tesseract api provides several page segmentation modes if you want to run OCR on only a small region or in different orientations, etc.
+There are several ways a page of text can be analysed. The tesseract api provides several page segmentation modes to run OCR on only a small region or in different orientations, etc.
 
-Here's a list of the supported page segmentation modes by tesseract. Check it out here
+Here's a list of the supported page segmentation modes by tesseract. 
 
 0    Orientation and script detection (OSD) only.  
 1    Automatic page segmentation with OSD.  
@@ -45,7 +45,7 @@ Here's a list of the supported page segmentation modes by tesseract. Check it ou
 12    Sparse text with OSD.  
 13    Raw line. Treat the image as a single text line, bypassing hacks that are Tesseract-specific.  
 
-To change your page segmentation mode, change the ```--psm``` argument in your custom config string to any of the above mentioned mode codes.
+
 
 ### Playing around with the config
 
